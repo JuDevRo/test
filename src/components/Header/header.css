@@ -1,0 +1,48 @@
+.header-container{
+    width: 100vw;
+    height: 8vh;
+    background-color: red;
+    display: grid;
+    grid-template-areas: "title image";
+    background: #FFFFFF;
+    border-bottom: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    /* align-items: center; */
+}
+
+.header-title{
+    align-self: center;
+    padding-left: 0.7vw;
+}
+
+.header-image{
+    grid-area: image;
+    justify-self: right;
+    align-self: center;
+    display: inline-block;
+    position: relative;
+}
+
+.header-h1{
+    margin: 0;
+    display: inline-block;
+}
+
+.header-h2{
+    display: inline-block;
+    margin: 0;
+    padding-right: 5vw;
+}
+
+.profile{
+    display: inline-block;
+    position: absolute;
+    background-color: gray;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    left: 5vw;
+    top: -1.2vh;
+    
+}
+

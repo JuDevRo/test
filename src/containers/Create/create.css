@@ -1,0 +1,74 @@
+.create-container{
+    display: grid;
+    grid-template-areas: "back form form form form form form form form";
+    margin-top: 8vh;
+}
+
+.create-title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.create-back{
+    display: inline-block;
+    grid-area: back;
+    
+}
+
+.create-form{
+    grid-area: form;
+}
+
+.create-title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 4vh;
+}
+
+
+.create-form p{
+    display: inline-block;
+}
+
+.accept{
+    display:inline-block;
+    margin-left: 5vw;
+    background-color: black;
+    color: white;
+    padding: 1vh;
+    border-radius: 5px;
+    padding-right: 5vw;
+}
+
+.accept:hover{
+    cursor: pointer;
+}
+
+#add{
+    display: inline-block;
+}
+
+#name{
+    display: inline-block;
+}
+
+#code{
+    display: inline-block;
+}
+
+#category{
+    display: inline-block;
+}
+
+.spaces{
+    display: inline-block;
+    width: 9vh;
+    margin-bottom: 1vh;
+}
+
+.space{
+    margin-left: 1vw;
+}
+

@@ -1,0 +1,121 @@
+.container-details{
+    display: grid;
+    grid-template-areas: "back info info img";
+    margin-top: 8vh;
+}
+
+.container-back{
+    grid-area: back;
+    width: 1vw;
+}
+
+.link-details{
+   display: inline;
+   width: 0;
+}
+
+.details-back {
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 5vh;
+    width: 5vh;
+    margin-left: 1vw;
+    display: inline-block;
+}
+
+.details-data{
+    grid-area: info;
+    font-size: 16px;
+}
+
+.details-data p{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.details-data h3{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.details-data h2{
+    margin-bottom: 5vh;
+    font-size: 30px;
+}
+
+.details-img{
+    grid-area: img;
+    background-color: gray;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.uno{
+    background: #5499C7;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding: 0.3vh;
+    color: white;
+}
+
+.dos{
+    background: #2980B9;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding: 0.3vh;
+    color: white;
+}
+
+.tres{
+    background: #2686c6;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding: 0.3vh;
+    color: white;
+}
+
+.cuatro{
+    background: #218fd9;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding: 0.3vh;
+    color: white;
+}
+
+.cinco{
+    background: #1495ec;
+    border-radius: 5px;
+    padding: 0.3vh;
+    color: white;
+}
+
+.no-space{
+    display: inline-block;
+}
+
+.one{  
+    background: #45B39D;
+    border-radius: 5px;
+    padding: 0.3vh;
+    margin-right: 3px;
+    color: white;
+}
+
+.two{
+    background: #16A085;
+    border-radius: 5px;
+    padding: 0.3vh;
+    color: white;
+}
+
+.lengua{
+    width: 4vh;
+    height: 2vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    display: inline-block;
+    margin-right: 1vh;
+}
