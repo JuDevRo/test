@@ -1,0 +1,47 @@
+.home-aside{
+    width: 12vw;
+    background-color: yellow;
+    height: 88.6vh;
+    padding-top: 3.4vh;
+    z-index: 1;
+    position: absolute;
+    background: #FFFFFF;
+    border-right: 1px solid #F3F3F3;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.pr{
+    
+}
+
+.web{
+    margin-top: 10%;
+}
+
+.fichas{
+    margin-top: 10%;
+}
+
+.docs{
+    margin-top: 10%;
+}
+
+
+h2{
+    margin: 0;
+}

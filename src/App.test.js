@@ -1,8 +1,26 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+import Home from './containers/Home/Home';
+import Create from './containers/Create/Create';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('Given a router', () => { 
+  describe('When invoked', () => {
+    test('Then it should the main route', () => {
+      render(
+        <BrowserRouter>
+          <Home />
+        </BrowserRouter>
+      );
+    
+      expect(screen.getByText('regarsa')).toBeInTheDocument();
+    });
+    test('Then it should the create route', () => {
+      render(
+        <BrowserRouter>
+          <Create />
+        </BrowserRouter>
+      );
+      expect(screen.getByText('Nuevo Producto', {exact: true})).toBeInTheDocument();
+    })
+  })
 });

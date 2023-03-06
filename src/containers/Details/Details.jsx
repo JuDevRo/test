@@ -34,12 +34,9 @@ const Details = () => {
 
   return (
     <div className='container-details'>
-      
       <Link to="/" className='link-details'>
-        <span style={back} className='details-back'></span>
+        <span role='back' style={back} className='details-back'></span>
       </Link>
-      
-      
       <div className='details-data'>
         <h2>{prd.nombre}</h2>
         <h3>Código: &nbsp;</h3><p>{prd.codigo}</p> <br />

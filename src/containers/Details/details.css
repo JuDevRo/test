@@ -99,7 +99,7 @@
     background: #45B39D;
     border-radius: 5px;
     padding: 0.3vh;
-    margin-right: 3px;
+    margin-right: 0.4vw;
     color: white;
 }
 
@@ -111,11 +111,11 @@
 }
 
 .lengua{
-    width: 4vh;
+    width: 2vw;
     height: 2vh;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;	
     display: inline-block;
-    margin-right: 1vh;
+    margin-right: 0.5vw;
 }

@@ -24,7 +24,7 @@ const Create = () => {
   return (
     <div className='create-container'>
         <Link to="/" className='link-details'>
-          <span style={back} className='details-back'></span>
+          <span role='back' style={back} className='details-back'></span>
         </Link>
       <div className='create-form'>
         <h2 className='create-title'>Nuevo Producto</h2>
@@ -34,16 +34,9 @@ const Create = () => {
         <span className='spaces'>Categoría:</span> <input onChange={(e) => setCategory(e.target.value)} type="text" name="" id="category" /><br/>
         <p>Idiomas:</p> 
         
-        <span className='space'>Español</span><input onChange={(e) => setEspañol(e.target.value)} type="checkbox" name="" id="e" value="español" />
-        <span className='space'>Ingles</span><input onChange={(e) => setIngles(e.target.value)} type="checkbox" name="" id="i" value="ingles" /><br /> 
-        {/* <select id="lenguajes" name="lenguajes" multiple>
-          <option >Español</option>
-          <option >Inglés</option>
-          <option >Francés</option>
-          <option >Japones</option>
-          <option >Mandarin</option>
-        </select> */}
-        <button onClick={handleForm} type='submit' className='accept'>+ &nbsp;&nbsp;Aceptar</button>
+        <span className='space'>Español</span><input onChange={(e) => setEspañol(e.target.value)} role="es" type="checkbox" name="" id="e" value="español" />
+        <span className='space'>Ingles</span><input onChange={(e) => setIngles(e.target.value)} role="en" type="checkbox" name="" id="i" value="ingles" /><br /> 
+        <button onClick={handleForm} role="ac" type='submit' className='accept'>+ &nbsp;&nbsp;Aceptar</button>
       </div>
     </div>
   )
